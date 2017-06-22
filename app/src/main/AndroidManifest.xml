@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.maciej.wisielec">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".Ekran_Glowny"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Wybor_trybu"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".Single_Player"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".Multi_Player"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".Client"
+                  android:screenOrientation="portrait"></activity>
+        <activity android:name=".Server"
+                  android:screenOrientation="portrait"></activity>
+       <activity android:name=".MultiPlayerGame"
+                 android:screenOrientation="portrait"
+                 android:windowSoftInputMode="stateHidden"></activity>
+        <activity android:name=".MultiPlayerGame_Client"
+                  android:screenOrientation="portrait"
+                  android:windowSoftInputMode="stateHidden"></activity>
+    </application>
+
+</manifest>

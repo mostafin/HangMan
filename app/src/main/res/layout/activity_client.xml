@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_client"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.example.maciej.wisielec.Ekran_Glowny" android:background="@drawable/blackboard1">
+>
+    <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="dstAddress" tools:textColor="@android:color/holo_blue_light"
+            tools:textColorHint="@android:color/holo_blue_light" android:textColorLink="@android:color/white"
+            android:textColor="@android:color/holo_blue_bright" android:textColorHint="@android:color/holo_blue_dark"/><![CDATA[
+    />
+
+    ]]>
+    <EditText
+            android:id="@+id/port"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="dstPort"
+            tools:textColor="@android:color/holo_blue_light"
+            tools:textColorHint="@android:color/holo_blue_light" android:textColorLink="@android:color/white"
+            android:textColor="@android:color/holo_blue_bright" android:textColorHint="@android:color/holo_blue_dark"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText3" android:hint="Player Name"
+            tools:textColor="@android:color/holo_blue_light"
+            tools:textColorHint="@android:color/holo_blue_light" android:textColorLink="@android:color/white"
+            android:textColor="@android:color/holo_blue_bright" android:textColorHint="@android:color/holo_blue_dark"/>
+    <TextView
+            android:id="@+id/response"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <Button
+            android:id="@+id/connect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Połącz..."/>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.example.maciej.wisielec.Ekran_Glowny" android:background="@drawable/blackboard1">
+    <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_light"/>
+    <TextView
+            android:id="@+id/infoip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_blue_light"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="193dp" >
+
+        <TextView
+                android:id="@+id/msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_light"
+        />
+    </ScrollView>
+    <TextView
+            android:text="PODAJ NAZWE GRACZA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView5"
+            android:textColor="@android:color/holo_blue_light"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large.Inverse" android:gravity="center_horizontal"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:hint="Player Nick"
+            tools:textColor="@android:color/holo_blue_light"
+            tools:textColorHint="@android:color/holo_blue_light" android:textColorLink="@android:color/white"
+            android:textColor="@android:color/holo_blue_bright" android:textColorHint="@android:color/holo_blue_dark"
+            android:gravity="center_vertical|center_horizontal"/>
+    <Button
+            android:text="Zaczynajmy..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/startButton"/>
+
+</LinearLayout>
